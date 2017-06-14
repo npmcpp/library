@@ -1,3 +1,5 @@
+#include <templates/templates.hpp>
+
 namespace library {
 
 int myfunc()
@@ -7,7 +9,8 @@ int myfunc()
 
 int myfunc2()
 {
-    return 5;
+    return templates::sq(5);
 }
 
 } // library
+
